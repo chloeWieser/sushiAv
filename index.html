@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <style>
+      * {
+        font-family: "Open Sans";
+        box-sizing: border-box;
+        text-align: center;
+        color: #fff;
+      }
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .hero-wrapper {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        height: auto;
+        width: auto;
+        min-height: 100%;
+        min-width: 100%;
+        z-index: -9999;
+      }
+      .hero-wrapper figure {
+        margin: 0;
+        position: relative;
+      }
+      .hero-wrapper figure h1 {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        border-right: 3px solid #fff;
+        padding: 5px 10px 5px 5px;
+      }
+      .hero-wrapper video {
+        width: 100%;
+        max-width: 100%;
+      }
+      .stretch {
+        height: auto;
+        background: #F72B2B;
+        min-height: 100%;
+        min-width: 100%;
+        background-size: cover;
+        margin-top: 800px;
+      }
+      .stretch h1 {
+        padding: 20px;
+      }
+    </style>
+</head>
+
+<body>
+        
+
+
+
+    <div class="container-fluid p-0">
+            <div id="videoLayer" class= "hero-wrapper bg-danger top-0 ratio ratio-16x9 z10 d-none d-md-block">              
+              <iframe width="100%" src="https://www.youtube.com/embed/0i9Hht-OZRo?autoplay=1&mute=1&start=005&end=030&loop=1&playlist=0i9Hht-OZRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              
+            </div>
+            <div class="stretch">
+              <div class="bg-accent codecontainer">
+                <h1>Order Online</h1>
+              </div>
+            </div>
+
+
+            <div id="imageLayer" class="h-100 w-100 bg-warning position-absolute top-0 z10 d-md-none d-lg-none d-xl-none">
+
+                <img src="images/noodles.jpg" alt="">
+            </div>
+
+
+
+            <div id="textLayer" class="h-100 w-100 position-absolute top-0 z25 d-flex text-accent display-1 justify-content-center align-items-center flex-column">
+                
+            </div>
+
+        </header>
+
+    <main>
+        <div class="row ps-beige p-5">
+            <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
+                <img src="images/adobeStock_323880740_1.jpg" width="90%" alt="image of salad">
+            </div>
+            <div class="col-sm-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
+                <div class="display-3">Our Philosophy</div>
+                <div class="lead">When Sushi Avenue opened its doors in 1997, we became Decatur's first sushi restaurant. We now serve patrons from two locations. Both locations are separated by a quarter mile of each other: Sushi Avenue on the Square and our original location on W. Ponce de Leon Ave.</div>
+            </div>          
+        </div>
+
+        <div class="ps-light row">
+            <div class="col-12 m-0 p-0">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.452944340656!2d-84.30019238479224!3d33.77479973068238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5073d3fdf63ab%3A0xb4c20a537ca367ff!2s308%20W%20Ponce%20de%20Leon%20Ave%2C%20Decatur%2C%20GA%2030030!5e0!3m2!1sen!2sus!4v1645901917819!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <div class="ps-gray"></div>
+        <div class="ps-light"></div>
+        <div class="ps-gray"></div>
+    </main>
+    <footer></footer>
+
+
+    </div>
+
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Menu Items and ordering information
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-warning">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+</body>
+</html>
+

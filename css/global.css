@@ -1,0 +1,79 @@
+/* black - #000000  
+emerald - #143822
+lime - #C7EF00  (accent)
+light beige - #e0ddd2 
+white = #FFFFFF */
+
+
+/* background colors */
+.bg-black{
+    background-color: black;
+}
+
+.bg-emerald{
+    background-color: #143822;
+}
+
+.bg-accent{
+    background-color: #C7EF00;
+}
+
+.bg-LightBeige{
+    background-color:#e0ddd2;
+}
+
+.bg-white{
+    background-color:white;
+}
+
+
+/* font colors */
+
+.text-black{
+    color: black;
+}
+
+.text-emerald{
+    color: #143822;
+}
+
+.text-accent{
+    color: #C7EF00;
+}
+
+.text-accent a{
+    color: #C7EF00;
+}
+
+.text-accent a:hover{
+    color:#e0ddd2;
+}
+
+.text-LightBeige{
+    background-color:#e0ddd2;
+}
+
+.text-white{
+    color:white;
+}
+
+/*page sections*/
+
+.ps-light{
+    background: white;
+    /* height: 550px; */
+    width: 100%;
+}
+
+.ps-beige{
+    background:#e0ddd2;
+    /* height: 550px; */
+    width: 100%;
+}
+
+
+
+.cta{
+    background-color: #C7EF00;
+    color: black                                                               ;
+}
