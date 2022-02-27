@@ -69,11 +69,51 @@ white = #FFFFFF */
     background:#e0ddd2;
     /* height: 550px; */
     width: 100%;
+    
 }
 
+.our-story-text {
+    height: 400px;
+    justify-content: center;
+    
+}
 
+.menu-text {
+    height: 400px;
+    justify-content: center;
+    color: black;
+    
+}
+
+.menu-options {
+    height: 400px;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.lead{
+    margin-bottom: 30px;
+}
+
+.map-section {
+    margin-bottom: 30px;
+}
+
+.visit-us {
+    color: black;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+}
 
 .cta{
     background-color: #C7EF00;
     color: black                                                               ;
 }
+
