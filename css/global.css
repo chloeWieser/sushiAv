@@ -90,6 +90,8 @@ white = #FFFFFF */
     justify-content: center;
     color: black;
     text-decoration: none;
+    list-style-type: none;
+    padding: 0px;
     
 }
 
@@ -117,3 +119,13 @@ white = #FFFFFF */
     color: black                                                               ;
 }
 
+.mainmenu{
+    position: relative;
+    top: 130px;
+    color: black
+}
+
+.menus-header{
+    padding-top: 24px;
+    color: black;
+}
